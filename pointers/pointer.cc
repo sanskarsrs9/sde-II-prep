@@ -8,8 +8,10 @@ int *z = &a;
 
 cout<<z<<endl;
 
-int *p = &z;
+int *p = z;
 
+cout<<*p<<endl;
+cout<<z<<endl;
 cout<<p<<endl;
 
     cout << a << endl;
